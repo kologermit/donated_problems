@@ -4,3 +4,4 @@ def sum(distance, rate, stop=0):
 	if rate == "weekend":
 		return 400 + distance // 500 * 25 + stop * 70
 
+print(sum(1000, "weekday"))
