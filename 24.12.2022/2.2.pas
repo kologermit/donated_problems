@@ -1,10 +1,8 @@
 var i: integer;
 var s: real;
 begin
-   for i := 1 to n do
-     x[i] := i;
    s := 0;
-   for i := 3 to n do
-     s := s + (x[i - 2] + x[i - 1]) * x[i];
+   for i := 2 to 1000 do
+     s := s + (i - 1) / i;
    write('s=', s);
 end.
