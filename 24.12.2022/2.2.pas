@@ -1,5 +1,3 @@
-const n = 100;
-var x: array[1 .. n] of real;
 var i: integer;
 var s: real;
 begin
